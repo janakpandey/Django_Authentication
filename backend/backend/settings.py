@@ -128,6 +128,11 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ALLOWED_ORIGINS = [
+    "https://my-frontend-site.onrender.com",  # <-- Add your live frontend URL here
+    "http://localhost:3000",                  # Keep your local development URL if needed
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 MEDIA_URL = '/media/'
