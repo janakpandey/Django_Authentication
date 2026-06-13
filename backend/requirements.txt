@@ -29,3 +29,4 @@ urllib3==2.6.3
 gunicorn
 django
 djangorestframework
+djangorestframework-simplejwt
