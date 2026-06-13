@@ -1,4 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://django-authentication-1-m4u1.onrender.com/'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://django-authentication-1-m4u1.onrender.com/api'
 
 interface ApiResponse<T = unknown> {
   data?: T

@@ -46,6 +46,7 @@ cd frontend
 npm run dev
 ```
 
-## Deployed URL
+## Deployed URLs
 
-**Live app:** `https://your-app-name.onrender.com`
+- **Backend API:** `https://django-authentication-1-m4u1.onrender.com`
+- **Frontend App:** `https://django-authentication-2-97ee.onrender.com`
