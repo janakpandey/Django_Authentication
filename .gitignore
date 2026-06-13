@@ -1,8 +1,19 @@
-node_modules/
-frontend/node_modules/
-.env
+# Python
 __pycache__/
 *.pyc
+.env
+venv/
+
+# Django
+db.sqlite3
+media/
+
+# Node
+node_modules/
+frontend/node_modules/
 dist/
 build/
-venv/
+
+# OS / editor
+.DS_Store
+.vscode/
